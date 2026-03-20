@@ -25,3 +25,5 @@
 ## The project utilizes Mixed-Integer Linear Programming (MILP), implemented via the PuLP library in Python, to generate an optimal 7-day schedule for a team of 10 employees. Unlike a simple randomized assignment, this model uses the COIN-OR solver to navigate thousands of possible combinations to find the single "best" version of the schedule.The model defines a binary decision variable Xe,d,s, which equals 1 if an employee is assigned to a specific shift and 0 otherwise. The Objective Function is designed to minimize a "Displeasure Cost"—a metric derived by subtracting employee shift preferences (on a 1–10 scale) from a maximum value. By minimizing this cost, the model mathematically maximizes collective employee satisfaction.
 
 # OUTPUT:
+<img width="656" height="792" alt="Image" src="https://github.com/user-attachments/assets/15126668-f97b-41ba-997c-ad4d3af13523" />
+<img width="400" height="93" alt="Image" src="https://github.com/user-attachments/assets/6c01c99f-2165-478c-886d-9acbc05adb23" />
